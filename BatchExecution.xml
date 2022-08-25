@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Batchecxecution">
+  <test thread-count="5" name="Test">
+    <classes>
+    <class name="com.onlineleavemanagement.HomePageTest"/>
+      <class name="com.userprofile.UserProfileTest"/>
+      <class name="com.approveleave.ApplicationTest"/>
+      <class name="com.updaterecommendedleave.RecommendedApplicationsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Batchecxecution -->
